@@ -1,4 +1,3 @@
-
 const chalk = require('chalk');
 const yargs = require('yargs');
 const notesUtility = require('./notes.js');
@@ -19,7 +18,7 @@ yargs.command({
         body: {
             describe: 'Note Description',
             demandOption: true,
-            type:'string'
+            type: 'string'
         }
     },
     handler: (argv) => {
